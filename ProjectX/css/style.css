@@ -1,0 +1,357 @@
+/*NAVBAR............................................................*/
+*{
+   
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+body{
+  font-family: 'Poppins', sans-serif; 
+}
+nav{
+    background: black;
+    height: 80px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+label.logo{
+    color: rgb(180, 175, 175);
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 10px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+
+    box-sizing: border-box;
+    border: 2px solid rgb(114, 109, 109) ;
+  left: 20px;
+  position: relative;
+    
+    
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    text-transform: uppercase;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+    top: -20px;
+    position: relative;
+}
+a.active,a:hover{
+background: rgb(160, 159, 157);
+transition: .5s;
+}
+
+/*NAVBAR ENDS HERE.....................................................................*/
+
+/* .................HOME PAGE................................................*/
+
+    
+
+/*IMAGE CSS...................................................................................*/
+.image_1{
+   
+    border: 5px solid black;
+    box-shadow: 1px 2px 10px 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    
+.image_2{
+    border: 5px solid black;
+    box-shadow: 1px 2px 10px 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+.image_3{
+    border: 5px solid black;
+    box-shadow: 1px 2px 10px 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    .image_4{
+        border: 5px solid black;
+    box-shadow: 1px 2px 10px 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    .image_5{
+        position: relative;
+        border: 5px solid black;
+        box-shadow: 1px 2px 10px 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }    
+    
+/*IMAGE CSS ENDS HERE.......................................................................*/
+
+
+/*NAME AND DESCRIPTION CSS..............................................................*/
+.name_1{
+    position: absolute;
+    left: 940px;
+    top: 200px;
+    box-sizing: border-box;
+    border: 5px solid rgb(122, 45, 25);
+    color:rgb(16, 78, 78);
+    border-radius: 3px;
+    width: 240px;
+    text-align: center;
+    box-shadow: 1px 2px 10px 5px;
+    text-transform: uppercase;
+    
+    
+}
+
+.name_2{
+position: absolute;
+left: 940px;
+top: 675px;
+box-sizing: border-box;
+width: 240px;
+border: 5px solid rgb(122, 45, 25);
+color:rgb(16, 78, 78);
+    border-radius: 3px;
+    box-shadow: 1px 2px 10px 5px;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+
+
+.name_3{
+    position: absolute;
+    left: 940px;
+top: 1150px;
+box-sizing: border-box;
+width: 240px;
+border: 5px solid rgb(122, 45, 25);
+color:rgb(16, 78, 78);
+    border-radius: 3px;
+    box-shadow: 1px 2px 10px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.name_4{
+    position: absolute;
+    box-sizing: border-box;
+    width: 240px;
+    border: 5px solid rgb(122, 45, 25);
+    color:rgb(16, 78, 78);
+    border-radius: 3px;
+    box-shadow: 1px 2px 10px 5px;
+    left: 940px;
+    top: 1650px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.name_5{
+    position: absolute;
+    box-sizing: border-box;
+    width: 240px;
+    border: 5px solid rgb(122, 45, 25);
+    color:rgb(16, 78, 78);
+    border-radius: 3px;
+    box-shadow: 1px 2px 10px 5px;
+    left: 940px;
+    top: 2150px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+/*................Description..............................*/
+.des_1{
+    text-align: center;
+    
+}
+.des_2{
+    text-align: center;
+}
+.des_3{
+    text-align: center;
+}
+.des_4{
+    text-align: center;
+}
+.des_5{
+    text-align: center;
+}
+/*....................Description ends here.......................*/
+
+
+
+/*HOME PAGE ENDS HERE.........................................................*/
+
+/*FOOTER.......................................................*/
+
+
+
+.footer{
+    background: black;
+   border-radius: 10px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 50px 50px;
+    
+
+}
+.footer-left{
+    float: left;
+}
+
+.footer h3{
+    color:wheat;
+    font-size: 45px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+.footer .footer-links{
+    color: wheat;
+    margin: 20px 12px;
+    padding: 0;
+}
+
+
+.footer .footer-team{
+    color:black;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    font-family:'Raleway',sans-serif ;
+    padding: 20px;
+
+}
+
+
+.footer-right{
+  
+   text-align: right;
+   font-size: 35px;
+}
+
+.footer-social a i:hover{
+    background-color:black;
+    
+}
+.footer-social a i{
+    color: rgb(243, 126, 30);
+  margin: 0;
+    }
+.footer .footer-center{
+
+position: absolute;
+left: 600px;
+color: white;
+
+}
+.footer-center{
+text-align: center;
+
+}
+
+.footer .footer-center i{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+    background:rgb(56, 59, 59);
+    color: wheat;
+}
+.footer-right p span{
+    color: wheat;
+}
+.footer .footer-left p{
+    color: white;
+}
+/*FOOTER ENDS HERE.............................................................*/
+
+
+
+
+.name{
+    color: white;
+
+}
+.email{
+    color: white;
+}
+.form{
+    font-family:  'Josefin Sans', sans-serif;
+}
+
+/*Code for Responsive Footer..............................*/
+@media (max-width:880px)
+{
+    .footer{
+        font-size: 14px;
+        font-family: 'Raleway',sans-serif;
+
+    }
+    .footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    
+    
+    
+}
+
+
+
+
+html { 
+    background: url(/html/img/newmainback.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+p a:hover{
+     
+      box-sizing: border-box;
+      border-radius: 3px;
+      background: brown;
+      opacity: 80%;
+  }
+  p a{
+      color:rgb(107, 44, 8) ;
+      font-size: 15px;
+      
+  }
+  .mail{
+color: white;
+  }
+  p a:hover{
+    background-color:  rgb(243, 126, 30);
+    transition: 1.5s;
+}
