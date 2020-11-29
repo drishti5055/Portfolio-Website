@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/slider1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+   
+        <label class="logo">Team Gamma</label>
+           <ul>
+             <li><a href="index.html" >Home</a></li>
+             <li><a href="#"class="active">About Us</a></li>
+           </ul>
+      </nav>
+      <div class="home-content">
+        <div class="text-1">Hello people.Below are the </div>
+        <div class="text-2">Contributions </div>
+        <div class="text-3">on Projects by <span>Team Gamma</span></div>
+
+
+    </div>
+    
+    
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <div class="slide first">
+                 <img src="img/Back11.jpg">
+                        </div>
+            <div class="slide">
+                <img src="img/Back12.jpg">
+            </div>
+            <div class="slide">
+                <img src="img/Back13.jpg">
+            </div>
+            <div class="slide">
+                <img src="img/Back10.jpg">
+
+            </div>
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+
+
+
+
+            </div>
+        
+        
+
+
+        </div>
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+
+
+    </div>
+    <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+            counter =1;
+        }
+    },5000);
+
+    </script>
+</body>
+</html>
